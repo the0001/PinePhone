@@ -30,7 +30,7 @@
 #define HOURS 24
 #define DAYS 10
 #define RESULTS 10
-#define FORECAST_URL "https://api.open-meteo.com/v1/forecast?latitude=%.4f&longitude=%.4f" \
+#define FORECAST_URL "https://api.open-meteo.com/v1/forecast?temperature_unit=fahrenheit&latitude=%.4f&longitude=%.4f" \
 	"&current=temperature_2m,apparent_temperature,relative_humidity_2m,weather_code,is_day," \
 	"wind_speed_10m,wind_direction_10m,surface_pressure" \
 	"&hourly=temperature_2m,weather_code,is_day,precipitation_probability" \
